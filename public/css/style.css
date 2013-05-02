@@ -287,21 +287,39 @@ body {
     padding: 10px;
 }
 
-#social-buttons table {
-    border: 0;
-    margin: 0 auto;
-    width: 50%;
+#social-buttons a {
+    background-color: #DEDEDE;
+    border-radius: 2px;
+    color: #FFF;
+    margin: 0 5px;
+    padding: 8px 16px;
+    text-shadow: none;
 }
 
-#social-buttons table td {
-    font-size: normal;
-    line-height: 0;
-    text-align: center;
-    width: 25%;
+#social-buttons .google-plus {
+    background-color: #D34836;
 }
 
-#___plusone_0, .fb-like, .twitter-share-button {
-    width: 82px !important;
+#social-buttons .facebook {
+    background-color: #3B5998;
+}
+
+#social-buttons .pinterest {
+    background-color: #CB2027;
+}
+
+#social-buttons .twitter {
+    background-color: #00ACED;
+}
+
+
+#social-buttons a:active {
+    text-decoration: none;
+}
+
+#social-buttons a:hover {
+    opacity: 0.8;
+    text-decoration: none;
 }
 
 
